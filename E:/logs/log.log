@@ -1,0 +1,512 @@
+2017-08-21 13:46:08  [ main:0 ] - [ DEBUG ]  SpringJUnit4ClassRunner constructor called with [class com.springmvc.controller.UserServiceTest].
+    2017-08-21 13:46:08  [ main:76 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@2f7c7260 declaringClass = 'com.springmvc.baseTest.SpringTestCase', locations = '{/spring-servlet.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+    2017-08-21 13:46:08  [ main:79 ] - [ DEBUG ]  Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:90 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:91 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:95 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:96 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:124 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:125 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:126 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:127 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:129 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:129 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:135 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:135 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 13:46:08  [ main:150 ] - [ DEBUG ]  Performing dependency injection for test context [[TestContext@dfd3711 testClass = UserServiceTest, testInstance = com.springmvc.controller.UserServiceTest@42d3bd8b, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26ba2a48 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+    2017-08-21 13:46:08  [ main:150 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@26ba2a48 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+    2017-08-21 13:46:08  [ main:151 ] - [ DEBUG ]  Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@26ba2a48 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+    2017-08-21 13:46:08  [ main:265 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 13:46:08  [ main:266 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 13:46:08  [ main:268 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 13:46:08  [ main:269 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 13:46:09  [ main:414 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 13:46:09  [ main:416 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 13:46:09  [ main:417 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 13:46:09  [ main:418 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 13:46:09  [ main:459 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-servlet.xml]
+    2017-08-21 13:46:09  [ main:461 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@47ef968d] to prepare test instance [com.springmvc.controller.UserServiceTest@42d3bd8b]
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-servlet.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:205)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 35 more
+2017-08-21 13:46:09  [ main:491 ] - [ DEBUG ]  After test class: context [[TestContext@dfd3711 testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26ba2a48 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+    2017-08-21 14:10:25  [ main:0 ] - [ DEBUG ]  SpringJUnit4ClassRunner constructor called with [class com.springmvc.controller.UserServiceTest].
+    2017-08-21 14:10:25  [ main:50 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@3796751b declaringClass = 'com.springmvc.baseTest.SpringTestCase', locations = '{/spring-servlet.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+    2017-08-21 14:10:25  [ main:51 ] - [ DEBUG ]  Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:60 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:60 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:64 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:64 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:85 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:86 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:87 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:87 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:89 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:89 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:92 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:93 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:10:25  [ main:103 ] - [ DEBUG ]  Performing dependency injection for test context [[TestContext@54a097cc testClass = UserServiceTest, testInstance = com.springmvc.controller.UserServiceTest@36f6e879, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+    2017-08-21 14:10:25  [ main:104 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+    2017-08-21 14:10:25  [ main:105 ] - [ DEBUG ]  Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+    2017-08-21 14:10:25  [ main:205 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:10:25  [ main:207 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:10:25  [ main:208 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:10:25  [ main:209 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:10:26  [ main:291 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:10:26  [ main:292 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:10:26  [ main:292 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:10:26  [ main:292 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:10:26  [ main:321 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-servlet.xml]
+    2017-08-21 14:10:26  [ main:323 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4f063c0a] to prepare test instance [com.springmvc.controller.UserServiceTest@36f6e879]
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-servlet.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:205)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 35 more
+2017-08-21 14:10:26  [ main:336 ] - [ DEBUG ]  After test class: context [[TestContext@54a097cc testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+    2017-08-21 14:11:13  [ main:0 ] - [ DEBUG ]  SpringJUnit4ClassRunner constructor called with [class com.springmvc.controller.UserServiceTest].
+    2017-08-21 14:11:13  [ main:44 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@3796751b declaringClass = 'com.springmvc.baseTest.SpringTestCase', locations = '{/spring-servlet.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+    2017-08-21 14:11:13  [ main:45 ] - [ DEBUG ]  Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:50 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:51 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:55 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:55 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:81 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:84 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:86 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:87 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:89 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:89 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:92 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:93 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:11:13  [ main:104 ] - [ DEBUG ]  Performing dependency injection for test context [[TestContext@54a097cc testClass = UserServiceTest, testInstance = com.springmvc.controller.UserServiceTest@36f6e879, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+    2017-08-21 14:11:13  [ main:105 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+    2017-08-21 14:11:13  [ main:105 ] - [ DEBUG ]  Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+    2017-08-21 14:11:13  [ main:166 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:11:13  [ main:169 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:11:13  [ main:172 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:11:13  [ main:173 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:11:13  [ main:217 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:11:13  [ main:217 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:11:13  [ main:218 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:11:13  [ main:218 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:11:13  [ main:233 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-servlet.xml]
+    2017-08-21 14:11:13  [ main:235 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4f063c0a] to prepare test instance [com.springmvc.controller.UserServiceTest@36f6e879]
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-servlet.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:205)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 35 more
+2017-08-21 14:11:13  [ main:245 ] - [ DEBUG ]  After test class: context [[TestContext@54a097cc testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5a61f5df testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+    2017-08-21 14:19:53  [ main:0 ] - [ DEBUG ]  SpringJUnit4ClassRunner constructor called with [class com.springmvc.controller.UserServiceTest].
+    2017-08-21 14:19:53  [ main:40 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@6bdf28bb declaringClass = 'com.springmvc.baseTest.SpringTestCase', locations = '{/spring-servlet.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+    2017-08-21 14:19:53  [ main:41 ] - [ DEBUG ]  Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:46 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:47 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:49 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:49 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:72 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:74 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:76 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:76 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:77 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:77 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:80 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:81 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:19:53  [ main:95 ] - [ DEBUG ]  Performing dependency injection for test context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = com.springmvc.controller.UserServiceTest@246ae04d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+    2017-08-21 14:19:53  [ main:95 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+    2017-08-21 14:19:53  [ main:96 ] - [ DEBUG ]  Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+    2017-08-21 14:19:53  [ main:151 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:19:53  [ main:153 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:19:53  [ main:154 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:19:53  [ main:155 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:19:53  [ main:185 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:19:53  [ main:185 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:19:53  [ main:186 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:19:53  [ main:186 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:19:53  [ main:197 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-servlet.xml]
+    2017-08-21 14:19:53  [ main:200 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@551aa95a] to prepare test instance [com.springmvc.controller.UserServiceTest@246ae04d]
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-servlet.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:205)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 35 more
+2017-08-21 14:19:53  [ main:213 ] - [ DEBUG ]  After test class: context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+    2017-08-21 14:46:13  [ main:0 ] - [ DEBUG ]  SpringJUnit4ClassRunner constructor called with [class com.springmvc.controller.UserServiceTest].
+    2017-08-21 14:46:13  [ main:51 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@6bdf28bb declaringClass = 'com.springmvc.baseTest.SpringTestCase', locations = '{/spring-servlet.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+    2017-08-21 14:46:13  [ main:52 ] - [ DEBUG ]  Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:62 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:63 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:66 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:67 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:89 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:90 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:93 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:93 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:95 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:95 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:98 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:99 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:13  [ main:118 ] - [ DEBUG ]  Performing dependency injection for test context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = com.springmvc.controller.UserServiceTest@246ae04d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+    2017-08-21 14:46:13  [ main:119 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+    2017-08-21 14:46:13  [ main:119 ] - [ DEBUG ]  Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+    2017-08-21 14:46:13  [ main:246 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:46:13  [ main:252 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:46:13  [ main:253 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:46:13  [ main:254 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:46:13  [ main:323 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:46:13  [ main:324 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:46:13  [ main:325 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:46:13  [ main:325 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:46:13  [ main:354 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-servlet.xml]
+    2017-08-21 14:46:13  [ main:357 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@551aa95a] to prepare test instance [com.springmvc.controller.UserServiceTest@246ae04d]
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-servlet.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:205)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 35 more
+2017-08-21 14:46:13  [ main:370 ] - [ DEBUG ]  After test class: context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+    2017-08-21 14:46:16  [ main:0 ] - [ DEBUG ]  SpringJUnit4ClassRunner constructor called with [class com.springmvc.controller.UserServiceTest].
+    2017-08-21 14:46:16  [ main:25 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@6bdf28bb declaringClass = 'com.springmvc.baseTest.SpringTestCase', locations = '{/spring-servlet.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+    2017-08-21 14:46:16  [ main:25 ] - [ DEBUG ]  Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:30 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:30 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:33 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:33 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:44 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:44 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:45 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:46 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:47 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:47 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:49 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:50 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:46:16  [ main:60 ] - [ DEBUG ]  Performing dependency injection for test context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = com.springmvc.controller.UserServiceTest@246ae04d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+    2017-08-21 14:46:16  [ main:61 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+    2017-08-21 14:46:16  [ main:61 ] - [ DEBUG ]  Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+    2017-08-21 14:46:16  [ main:113 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:46:16  [ main:116 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:46:16  [ main:117 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:46:16  [ main:118 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:46:16  [ main:146 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:46:16  [ main:146 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:46:16  [ main:147 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:46:16  [ main:147 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:46:16  [ main:155 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-servlet.xml]
+    2017-08-21 14:46:16  [ main:157 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@551aa95a] to prepare test instance [com.springmvc.controller.UserServiceTest@246ae04d]
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-servlet.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:205)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 35 more
+2017-08-21 14:46:16  [ main:165 ] - [ DEBUG ]  After test class: context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+    2017-08-21 14:51:24  [ main:0 ] - [ DEBUG ]  SpringJUnit4ClassRunner constructor called with [class com.springmvc.controller.UserServiceTest].
+    2017-08-21 14:51:24  [ main:33 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@6bdf28bb declaringClass = 'com.springmvc.baseTest.SpringTestCase', locations = '{/spring-servlet.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+    2017-08-21 14:51:24  [ main:34 ] - [ DEBUG ]  Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:40 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:40 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:43 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:44 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:56 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:57 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:58 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:59 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:60 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:60 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:62 ] - [ DEBUG ]  Retrieved @ProfileValueSourceConfiguration [null] for test class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:62 ] - [ DEBUG ]  Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.springmvc.controller.UserServiceTest]
+    2017-08-21 14:51:24  [ main:74 ] - [ DEBUG ]  Performing dependency injection for test context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = com.springmvc.controller.UserServiceTest@246ae04d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+    2017-08-21 14:51:24  [ main:75 ] - [ DEBUG ]  Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+    2017-08-21 14:51:24  [ main:75 ] - [ DEBUG ]  Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+    2017-08-21 14:51:24  [ main:125 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:51:24  [ main:127 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:51:24  [ main:128 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:51:24  [ main:129 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:51:25  [ main:156 ] - [ DEBUG ]  Initializing new StandardEnvironment
+    2017-08-21 14:51:25  [ main:157 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+    2017-08-21 14:51:25  [ main:157 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+    2017-08-21 14:51:25  [ main:158 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+    2017-08-21 14:51:25  [ main:165 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-servlet.xml]
+    2017-08-21 14:51:25  [ main:167 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@551aa95a] to prepare test instance [com.springmvc.controller.UserServiceTest@246ae04d]
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-servlet.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:205)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [spring-servlet.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 35 more
+2017-08-21 14:51:25  [ main:177 ] - [ DEBUG ]  After test class: context [[TestContext@2c6a3f77 testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@62043840 testClass = UserServiceTest, locations = '{classpath:/spring-servlet.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+    

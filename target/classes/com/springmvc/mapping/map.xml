@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.springmvc.dao.UserDao">  
+<!--设置domain类和数据库中表的字段一一对应，注意数据库字段和domain类中的字段名称不致，此处一定要！-->  
+    <resultMap id="BaseResultMap" type="com.springmvc.domain.User">  
+        <id column="id" property="userId" jdbcType="INTEGER" />  
+        <result column="userName" property="userName" jdbcType="CHAR" />  
+        <result column="pwd" property="userPassword" jdbcType="CHAR" />    
+    </resultMap>  
+    <!-- 查询单条记录 -->  
+    <select id="selectUserById" parameterType="int" resultMap="BaseResultMap">  
+        SELECT * FROM books.user WHERE id = #{userId}  
+    </select>  
+    <!-- 插入记录 --> 
+	<insert id="insertOne" useGeneratedKeys="true" keyProperty="id" parameterType="com.springmvc.domain.User">  
+    insert into user(userName,pwd)  
+    values(#{userName},#{userPassword})  
+	</insert>
+	<!-- 批量 -->
+	<insert id="insertOnes"  parameterType="java.util.List">
+	insert into user (userName,pwd)
+	values
+	<foreach collection="list" item="item" index="index" separator=",">
+	(#{item.userName},#{item.userPassword})
+	</foreach>
+	</insert>
+	 <!-- 对应userDao中的updateUser方法 -->
+   <update id="updateUser" parameterType="com.springmvc.domain.User">
+           update user set userName = #{userName}, pwd = #{userPassword																				}
+               where id = #{userId};
+   </update>
+   <!-- delete -->
+   <delete id="deleteUserById" parameterType="int">
+   		delete from user where id = #{userId};
+   </delete>
+</mapper>  
